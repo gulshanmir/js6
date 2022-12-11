@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/*#first {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left:0;
+
+}
+#second {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    top: 50%;
+    left:50%;
+
+
+
+}*/
+
+
+
+a{
+    text-decoration: none;
+}
+.container{
+    padding: 15px 40px;
+}
+.headerfirst-all nav a{
+    color: #666666;
+    font-size: 15px;
+    margin-right: 24px;
+}
+.headerfirst-all .icons span{
+    color: #666666;
+    font-size: 15px;
+    margin-left: 25px;
+}
+
+.headersecond-all nav a{
+    color: #262626;
+    font-size: 16px;
+    margin-left: 15px;
+
+}
+.headersecond-all .icons a{
+    color: #0056C1;
+    font-size: 16px;
+}
+.headerfirst-all{
+    display: flex;
+    justify-content: space-between;
+}
+.headersecond-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.headerthird-all{
+    display: flex;
+    justify-content: space-between;
+}
+.headerthird-all .icons span{
+    margin-left: 25px;
+    color: #666666;
+    font-size: 15px;
+
+}
+.headerthird-all nav a{
+    color: #262626;
+    font-size: 15px;
+}
+.headerfourth-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerfourth-all .icons i{
+    color: #262626;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+@media(max-width:576px){
+    .container{
+        padding: 17px 15px;
+    }
+    #Headerfirst{
+        display: none;
+    }
+    #Headersecond{
+        display:none;
+    }
+    #Headerthird{
+        display:block
+    }
+    #Headerfourth{
+        display: block;
+    }
+}
+ 
+ @media(min-width:992px){
+    #Headerfirst{
+        display:block;
+    }
+    #Headersecond{
+        display: block;
+    }
+    #Headerthird{
+        display: none;
+    }
+    #Headerfourth{
+        display: none;
+    }
+ }
+ #fifth h1{
+    color: #666666bc;
+    font-size: 40px;
+    font-weight: 300;
+    padding: 15px 40px;
+ }
+ #fifth{
+    background-color: #f6f7f8;
+    padding: 50px 0;
+    position: relative;
+    display: none;
+ }
+ #close{
+    position: absolute;
+    top: 15px;
+    right: 40px;
+    color: #262626;
+    font-size: 30px;
+    font-weight: 300;
+    cursor: pointer;
+ }
+ .active{
+    display: block!important;
+ }
+ #uchbucaq{
+    width: 200px;
+    height: 200px;
+    background-color:aliceblue;
+    position: relative;
+    display: none;
+    float: right;
+    margin: -70px 4rem;
+    
+ }
+ #uchbucaq::before{
+    content: '';
+    position: absolute;
+    top:-20px;
+    right: 43px;
+    width: 20px;
+    height: 20px;
+    background-color:aliceblue;
+    clip-path: polygon(51% 0, 0 100%, 100% 100%);
+ }
+  
